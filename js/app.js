@@ -750,6 +750,9 @@ const App = (() => {
         animation: 150,
         handle: '.workout-card',
         draggable: '.workout-card',
+        delay: 300,
+        delayOnTouchOnly: true,
+        touchStartThreshold: 5,
         ghostClass: 'sortable-ghost',
         chosenClass: 'sortable-chosen',
         onEnd: (evt) => {
