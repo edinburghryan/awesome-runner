@@ -8,12 +8,12 @@ const App = (() => {
   let activeDay = null;
 
   const WORKOUT_ICONS = {
-    run: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0"/><path d="M7 21l3-4 2.5 1 3.5-5-2-2-4 1-3 4"/><path d="M16 21l-2-5 3-3 2-4"/></svg>',
-    strength: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="3" height="6" rx="1"/><rect x="19" y="9" width="3" height="6" rx="1"/><rect x="5" y="7" width="3" height="10" rx="1"/><rect x="16" y="7" width="3" height="10" rx="1"/><line x1="8" y1="12" x2="16" y2="12"/></svg>',
-    yoga: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="1.5"/><path d="M12 8v5"/><path d="M8 18c0-3 2-5 4-5s4 2 4 5"/><path d="M6 18h12"/><path d="M9 11l-3-1M15 11l3-1"/></svg>',
-    cycling: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l4-8h4l3 5M14 9l1-3"/></svg>',
-    hiking: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20l4-12 4 6 4-8 4 14"/></svg>',
-    canicross: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 20c0-4 1-7 3-9 1.5-1.5 2-3 1.5-5C12 4 11 3 9.5 3 8 3 6.5 4.5 6 7c-.5 2.5-1 4-3 5"/><path d="M14.5 3c1.5 0 3 1 3.5 3 .3 1.5 0 3-1 4.5-1.5 2-2 5-2 7"/><path d="M9 8c1-1 2.5-1 3.5 0"/></svg>'
+    run: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(24,0) scale(-1,1)"><path d="m15 10.42 4.8-5.07"/><path d="M19 18h3"/><path d="M9.5 22 21.414 9.415A2 2 0 0 0 21.2 6.4l-5.61-4.208A1 1 0 0 0 14 3v2a2 2 0 0 1-1.394 1.906L8.677 8.053A1 1 0 0 0 8 9c-.155 6.393-2.082 9-4 9a2 2 0 0 0 0 4h14"/></g></svg>',
+    strength: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.409 13.017A5 5 0 0 1 22 15c0 3.866-4 7-9 7-4.077 0-8.153-.82-10.371-2.462-.426-.316-.631-.832-.62-1.362C2.118 12.723 2.627 2 10 2a3 3 0 0 1 3 3 2 2 0 0 1-2 2c-1.105 0-1.64-.444-2-1"/><path d="M15 14a5 5 0 0 0-7.584 2"/><path d="M9.964 6.825C8.019 7.977 9.5 13 8 15"/></svg>',
+    yoga: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22.063,8.226a7.976,7.976,0,0,0-5.521.63,10.063,10.063,0,0,0-3.986-5.687,1,1,0,0,0-1.112,0A10.072,10.072,0,0,0,7.457,8.858a7.964,7.964,0,0,0-5.521-.632,1,1,0,0,0-.732.769,10.771,10.771,0,0,0,2.481,9.149C6.036,20.781,8.873,21,11.816,21h.356c2.947,0,5.786-.219,8.14-2.855A10.764,10.764,0,0,0,22.8,8.994,1,1,0,0,0,22.063,8.226ZM12,5.245a8.36,8.36,0,0,1,2.772,4.73,9.256,9.256,0,0,0-1.089,1.017A10.3,10.3,0,0,0,12,13.515a10.345,10.345,0,0,0-1.687-2.523A9.314,9.314,0,0,0,9.227,9.98,8.362,8.362,0,0,1,12,5.245ZM10.958,18.992c-2.272-.05-4.173-.376-5.78-2.179A8.762,8.762,0,0,1,3.06,10.04a6.63,6.63,0,0,1,5.762,2.341A8.768,8.768,0,0,1,10.958,18.992Zm7.861-2.179c-1.61,1.8-3.513,2.129-5.789,2.179a8.759,8.759,0,0,1,2.138-6.61,6.808,6.808,0,0,1,5.011-2.393,5.528,5.528,0,0,1,.761.052A8.755,8.755,0,0,1,18.819,16.813Z"/></svg>',
+    cycling: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg>',
+    hiking: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z"/><path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z"/><path d="M16 17h4"/><path d="M4 13h4"/></svg>',
+    canicross: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/></svg>'
   };
 
   const RACE_TYPES = {
@@ -23,6 +23,49 @@ const App = (() => {
     'marathon': 'Marathon',
     'ultra': 'Ultra'
   };
+
+  const DAY_COLOUR_PALETTE = [
+    { name: 'Rose',     header: '#E8A0A0', tint: '#FDF0F0' },
+    { name: 'Peach',    header: '#E8C4A0', tint: '#FDF5F0' },
+    { name: 'Sand',     header: '#E8D8A0', tint: '#FDFAF0' },
+    { name: 'Sage',     header: '#A0D8A0', tint: '#F0FDF0' },
+    { name: 'Sky',      header: '#A0C4E8', tint: '#F0F5FD' },
+    { name: 'Lavender', header: '#C4A0E8', tint: '#F5F0FD' },
+    { name: 'Slate',    header: '#A0B8C8', tint: '#F0F4F8' },
+    { name: 'Blush',    header: '#E8A0C4', tint: '#FDF0F5' },
+  ];
+
+  const DAY_COLOUR_PALETTE_DARK = [
+    { name: 'Rose',     header: '#8B5E5E', tint: '#3A2A2A' },
+    { name: 'Peach',    header: '#8B7A5E', tint: '#3A3228' },
+    { name: 'Sand',     header: '#8B845E', tint: '#3A3828' },
+    { name: 'Sage',     header: '#5E8B5E', tint: '#283A28' },
+    { name: 'Sky',      header: '#5E7A8B', tint: '#28323A' },
+    { name: 'Lavender', header: '#7A5E8B', tint: '#32283A' },
+    { name: 'Slate',    header: '#5E7080', tint: '#282E34' },
+    { name: 'Blush',    header: '#8B5E7A', tint: '#3A2832' },
+  ];
+
+  const DEFAULT_DAY_COLOURS = {
+    "0": "#A0C4E8",
+    "1": "#A0D8A0",
+    "2": "#E8D8A0",
+    "3": "#E8C4A0",
+    "4": "#C4A0E8",
+    "5": "#E8A0C4",
+    "6": "#E8A0A0",
+  };
+
+  function getDayColour(dayIndex) {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const activePalette = isDark ? DAY_COLOUR_PALETTE_DARK : DAY_COLOUR_PALETTE;
+    const dayColours = config.day_colors || DEFAULT_DAY_COLOURS;
+    const storedHex = dayColours[String(dayIndex)];
+    let idx = DAY_COLOUR_PALETTE.findIndex(p => p.header === storedHex);
+    if (idx === -1) idx = DAY_COLOUR_PALETTE_DARK.findIndex(p => p.header === storedHex);
+    if (idx === -1) return { header: storedHex, tint: storedHex + '20' };
+    return activePalette[idx];
+  }
 
   // --- Date Utilities ---
   function getMonday(date) {
@@ -261,20 +304,22 @@ const App = (() => {
       const isToday = dateStr === today;
 
       const dayWorkouts = workouts.filter(w => w.day_index === i).sort((a, b) => a.order_index - b.order_index);
+      const colours = getDayColour(i);
 
       const card = document.createElement('div');
       card.className = `day-card${isToday ? ' today' : ''}`;
       card.dataset.dayIndex = i;
 
       card.innerHTML = `
-        <div class="day-card-header">
+        <div class="day-card-header" style="background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.25) 100%), ${colours.header}; border-bottom-color: transparent;">
           <span class="day-name">${days[i]}</span>
           <span style="display:flex;align-items:center;gap:8px;">
             <span class="day-date">${formatDateShort(dayDate)}</span>
+            <button class="btn-colour-day" data-day="${i}" title="Change colour"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="9"/></svg></button>
             ${dayWorkouts.length > 0 ? `<button class="btn-clear-day" data-day="${i}" title="Clear day"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M8 6V4h8v2M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6"/></svg></button>` : ''}
           </span>
         </div>
-        <div class="day-card-body${dayWorkouts.length === 0 ? ' empty' : ''}" data-day="${i}">
+        <div class="day-card-body${dayWorkouts.length === 0 ? ' empty' : ''}" data-day="${i}" style="background: ${colours.tint};">
           ${dayWorkouts.map(w => renderWorkoutCard(w)).join('')}
           <button class="btn-add-workout" data-day="${i}">+ Add</button>
         </div>
@@ -356,6 +401,13 @@ const App = (() => {
         return;
       }
 
+      const colourBtn = e.target.closest('.btn-colour-day');
+      if (colourBtn) {
+        e.stopPropagation();
+        openDayColourPicker(parseInt(colourBtn.dataset.day));
+        return;
+      }
+
       const clearBtn = e.target.closest('.btn-clear-day');
       if (clearBtn) {
         e.stopPropagation();
@@ -410,6 +462,33 @@ const App = (() => {
     const next = current === 'light' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('ar_theme', next);
+    renderWeek();
+  }
+
+  function openDayColourPicker(dayIndex) {
+    const overlay = document.getElementById('colour-modal-overlay');
+    const grid = document.getElementById('colour-grid');
+    const dayColours = config.day_colors || DEFAULT_DAY_COLOURS;
+    const currentHex = dayColours[String(dayIndex)];
+
+    grid.innerHTML = '';
+    DAY_COLOUR_PALETTE.forEach(colour => {
+      const swatch = document.createElement('button');
+      swatch.className = 'colour-swatch' + (currentHex === colour.header ? ' selected' : '');
+      swatch.style.background = colour.header;
+      swatch.title = colour.name;
+      swatch.addEventListener('click', async () => {
+        const dayColors = config.day_colors ? { ...config.day_colors } : { ...DEFAULT_DAY_COLOURS };
+        dayColors[String(dayIndex)] = colour.header;
+        config.day_colors = dayColors;
+        await Store.saveConfig({ day_colors: dayColors });
+        overlay.classList.add('hidden');
+        renderWeek();
+      });
+      grid.appendChild(swatch);
+    });
+
+    overlay.classList.remove('hidden');
   }
 
   function openWorkoutDetail(workoutId) {
@@ -421,10 +500,14 @@ const App = (() => {
   function showWorkoutDetailModal(w) {
     const overlay = document.getElementById('workout-detail-overlay');
     const body = document.getElementById('workout-detail-body');
+    const dayColour = getDayColour(w.day_index);
+    body.style.background = dayColour.tint;
+    applyDayGradientToHeader(overlay, w.day_index);
+    const typeLabel = w.type === 'run' ? 'Running' : (w.type.charAt(0).toUpperCase() + w.type.slice(1));
+    document.getElementById('workout-detail-title').textContent = typeLabel;
 
     let html = `<div class="workout-detail-section" style="margin-bottom:12px;"><h4>Title</h4>`;
     html += `<input type="text" class="notes-field" id="detail-title" value="${escapeHtml(w.title)}" style="min-height:auto;padding:8px 12px;font-weight:600;font-size:15px;"></div>`;
-    html += `<div class="workout-detail-type">${w.type}</div>`;
 
     if (w.description) {
       html += `<div class="workout-detail-section"><h4>Workout</h4><p>${escapeHtml(w.description)}</p></div>`;
@@ -491,9 +574,23 @@ const App = (() => {
     });
   }
 
+  function applyDayGradientToHeader(overlay, dayIndex) {
+    const colours = getDayColour(dayIndex);
+    const header = overlay.querySelector('.modal-header');
+    if (header) {
+      header.style.background = `linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.25) 100%), ${colours.header}`;
+      header.style.borderBottom = 'none';
+      header.querySelector('h3').style.color = '#2C2C2E';
+    }
+  }
+
   function openAddWorkoutSheet() {
     const overlay = document.getElementById('add-workout-overlay');
     const refSection = document.getElementById('reference-workouts-list');
+    const modalBody = overlay.querySelector('.modal-body');
+    const colours = getDayColour(activeDay);
+    modalBody.style.background = colours.tint;
+    applyDayGradientToHeader(overlay, activeDay);
 
     const monday = getCurrentMonday();
     const refWeekNum = getReferenceWeekForDate(monday);
@@ -585,14 +682,16 @@ const App = (() => {
   }
 
   function showReferencePreview(refWorkout, itemEl) {
-    // Hide add-workout sheet, show detail with Add button
     document.getElementById('add-workout-overlay').classList.add('hidden');
 
     const overlay = document.getElementById('workout-detail-overlay');
     const body = document.getElementById('workout-detail-body');
+    const dayColour = getDayColour(activeDay);
+    body.style.background = dayColour.tint;
+    applyDayGradientToHeader(overlay, activeDay);
+    document.getElementById('workout-detail-title').textContent = 'Running';
 
     let html = `<div class="workout-detail-title">${escapeHtml(refWorkout.title)}</div>`;
-    html += `<div class="workout-detail-type">run</div>`;
 
     if (refWorkout.description) {
       html += `<div class="workout-detail-section"><h4>Workout</h4><p>${escapeHtml(refWorkout.description)}</p></div>`;
@@ -651,6 +750,15 @@ const App = (() => {
     });
   }
 
+  const TYPE_TINTS = {
+    run: { light: '#e3f2fd', dark: '#1a2a3a' },
+    strength: { light: '#fff3e0', dark: '#3a2a1a' },
+    yoga: { light: '#f3e5f5', dark: '#2a1a3a' },
+    cycling: { light: '#e8f5e9', dark: '#1a2a1a' },
+    hiking: { light: '#efebe9', dark: '#2a2420' },
+    canicross: { light: '#fbe9e7', dark: '#3a2020' },
+  };
+
   function addCustomWorkout(type) {
     const titles = { strength: 'Strength Training', yoga: 'Yoga', cycling: 'Cycling', hiking: 'Hiking', canicross: 'Canicross' };
     const defaultTitle = titles[type] || type;
@@ -659,9 +767,12 @@ const App = (() => {
 
     const overlay = document.getElementById('workout-detail-overlay');
     const body = document.getElementById('workout-detail-body');
+    const dayColour = getDayColour(activeDay);
+    body.style.background = dayColour.tint;
+    applyDayGradientToHeader(overlay, activeDay);
+    document.getElementById('workout-detail-title').textContent = defaultTitle;
 
-    let html = `<div class="workout-detail-type">${type}</div>`;
-    html += `<div class="workout-detail-section"><h4>Title</h4>`;
+    let html = `<div class="workout-detail-section"><h4>Title</h4>`;
     html += `<input type="text" class="notes-field" id="custom-workout-title" value="${escapeHtml(defaultTitle)}" style="min-height:auto;padding:8px 12px;"></div>`;
     html += `<div class="workout-detail-section"><h4>Notes</h4>`;
     html += `<textarea class="notes-field" id="custom-workout-notes" placeholder="Add details..."></textarea></div>`;
