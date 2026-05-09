@@ -470,7 +470,7 @@ body {
 
 /* Race Form */
 .form-group { margin-bottom: 14px; }
-.form-group label { display: block; font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px; }
+.form-group label { display: block; font-size: 14px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px; }
 .form-group input, .form-group select {
   width: 100%; padding: 10px 12px;
   border: 1px solid var(--border);
@@ -502,8 +502,8 @@ body {
   border-bottom: 1px solid var(--border-light);
 }
 .settings-row:last-child { border-bottom: none; }
-.settings-label { font-size: 13px; font-weight: 500; }
-.settings-value { font-size: 13px; color: var(--text-secondary); }
+.settings-label { font-size: 15px; font-weight: 500; }
+.settings-value { font-size: 15px; color: var(--text-secondary); }
 
 /* Notes field */
 .notes-field {
