@@ -496,6 +496,8 @@ body {
 }
 
 /* Settings modal */
+[data-theme="dark"] #settings-body { background: #2C2C2E; }
+
 .settings-row {
   display: flex; align-items: center; justify-content: space-between;
   padding: 12px 0;
