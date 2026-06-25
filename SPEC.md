@@ -2,7 +2,7 @@
 
 ## Overview
 
-A mobile-first PWA training planner for ultramarathon preparation. Provides a weekly planning workspace where Ly can view, adapt, and track workouts seeded from the 80/20 Running training plan, supplemented with custom activities.
+A mobile-first PWA training planner for ultramarathon preparation. Provides a weekly planning workspace where Ly can view, adapt, and track workouts seeded from the Glenmore 24 training plan (date-stamped per week), supplemented with custom activities.
 
 **Users:** Ly (primary), Ryan (secondary)
 **Live URL:** https://edinburghryan.github.io/awesome-runner/
@@ -13,7 +13,7 @@ A mobile-first PWA training planner for ultramarathon preparation. Provides a we
 ## Core Workflow
 
 1. Open app → see today's workout(s) highlighted + race countdown in header
-2. End of week → navigate to next week (auto-seeded from reference plan)
+2. End of week → navigate to next week (auto-seeded from the training plan by date)
 3. Review seeded workouts, modify as needed: rename, move between days, replace, add custom activities
 4. Through the week → mark workouts done
 5. Optionally plan multiple weeks ahead using the date picker for race prep
@@ -32,7 +32,7 @@ A mobile-first PWA training planner for ultramarathon preparation. Provides a we
   - "+" button to add workouts
   - "Clear day" button (bin icon) with confirmation dialog — removes all workouts from that day
 - **Today highlighted** with a blue border
-- **Plan week indicator** — shows which reference plan week maps to the viewed week (e.g. "Plan Wk 5")
+- **Plan week indicator** — shows which training plan week maps to the viewed week (e.g. "Plan Wk 5")
 
 ### 2. Workout Cards
 
@@ -40,7 +40,7 @@ A mobile-first PWA training planner for ultramarathon preparation. Provides a we
 - Tap the **workout info** → opens detail modal with:
   - Editable title (saves on blur — allows renaming at any time)
   - Workout description (zone instructions)
-  - Structured interval visualisation with colour-coded zone pills
+  - Intensity / measurement detail pills (plan workouts); colour-coded HR zone pills for any legacy 80/20 workouts
   - Coach notes
   - Editable notes field
   - "Remove workout" button
@@ -51,6 +51,8 @@ A mobile-first PWA training planner for ultramarathon preparation. Provides a we
 Triggered by the "+" button on any day. Contains:
 
 **Custom activity buttons** (2-column grid):
+- Run (running figure icon)
+- Walk (walking figure icon)
 - Strength (barbell icon)
 - Yoga (lotus pose icon)
 - Cycling (bike icon)
@@ -62,13 +64,12 @@ Tapping a custom activity opens a detail view with:
 - Notes field for details
 - "Add to day" / "Close" buttons
 
-**Reference plan workouts** (listed below custom activities):
-- Shows all coded workouts from the mapped reference plan week
+**Training plan workouts** (listed below custom activities):
+- Shows the activities from the plan week mapped to the viewed week (markers and the race are excluded), each with its mapped category icon
 - Tapping one opens a **preview** showing:
-  - Editable title (pre-filled, e.g. "RFR16 (Fartlek Run)" — can rename before adding)
-  - Full workout description with zones
-  - Structured interval visualisation
-  - Coach notes
+  - Editable title (pre-filled — can rename before adding)
+  - Full workout description (strength exercise lists folded in)
+  - Intensity / measurement detail pills
   - "Add to day" / "Close" buttons
 - Added workouts are greyed out in the list; sheet stays open for adding multiple
 - "Close" returns to the add-workout sheet
@@ -88,17 +89,18 @@ Tapping a custom activity opens a detail view with:
 - Delete option on existing races
 - Race types: 5K, 10K, Half Marathon, Marathon, Ultra
 
-### 6. Auto-Seeding from Reference Plan
+### 6. Auto-Seeding from Training Plan
 
-- When navigating to a week with no existing data, workouts are auto-created from the 80/20 reference plan
-- **Configurable week offset:** user sets "I'm on week X" in settings; auto-advances from that anchor
-- Seeded workouts have `source: "reference"` and can be freely edited (they're copies)
-- Rest Days and Walking entries from the reference plan are not seeded
+- When navigating to a week with no existing data, workouts are auto-created from the Glenmore 24 plan
+- **Date-based:** the plan is calendar-stamped per week, so a viewed week seeds from the plan week whose date span overlaps it (no manual week offset)
+- Seeded workouts have `source: "plan"` and can be freely edited (they're copies)
+- Plan activity types are mapped to app categories (e.g. `bike`→cycling, `hike`→hiking, `long_run`/`hill_run`→run); either-or activities (`bike_or_hike`) use the first-named type with both kept in the title
+- Non-workout markers (`note`, `logistics`, `no_strength`) seed as small info cards (`is_marker: true`, no checkbox); the `race` marker is skipped (Glenmore 24 lives in the Races tab)
+- Strength days fold their referenced exercise list into the workout description
 
 ### 7. Settings
 
-- **Current reference plan week** (1–23): sets which plan week maps to this week
-- **Plan end date** shown dynamically as the week number changes
+- **Training plan** name and date range (read-only) — the plan auto-seeds by date
 - **Sign out** button
 
 ### 8. Dark Mode
@@ -146,7 +148,7 @@ Tapping a custom activity opens a detail view with:
 | Field | Type | Description |
 |-------|------|-------------|
 | week_start | string | Monday date (YYYY-MM-DD) |
-| reference_week | number? | Which 80/20 week it was seeded from |
+| plan_week | number? | Which Glenmore plan week it was seeded from |
 | status | string | "planned" / "active" / "completed" |
 | created_at | timestamp | Auto-set |
 
@@ -159,15 +161,18 @@ Document ID format: `2026-W18` (ISO year-week)
 | day_index | number | 0=Mon, 6=Sun |
 | date | string | YYYY-MM-DD |
 | order_index | number | Sort order within day |
-| type | string | "run" / "strength" / "yoga" / "cycling" / "hiking" / "canicross" |
+| type | string | "run" / "walk" / "strength" / "yoga" / "cycling" / "hiking" / "canicross" / "note" |
 | title | string | Display title (editable) |
-| source | string | "reference" / "custom" |
-| reference_code | string? | e.g. "RFF48" |
-| description | string? | Zone instructions text |
-| coach_comments | string? | Coach guidance |
-| planned_duration_hours | number? | Planned duration |
-| planned_tss | number? | Training Stress Score |
-| structure | string? | JSON-stringified interval structure |
+| source | string | "plan" / "custom" |
+| is_marker | boolean? | True for info-card markers (note/logistics/no_strength) — rendered without a checkbox |
+| reference_code | string? | Legacy 80/20 code (null for plan workouts) |
+| description | string? | Workout instructions; strength exercise list folded in |
+| coach_comments | string? | Coach guidance (legacy) |
+| intensity | string? | Plan intensity, e.g. "Zone 2" |
+| measurements | string? | Plan measurements, e.g. "30-45 min, 5 km" |
+| planned_duration_hours | number? | Planned duration (legacy 80/20) |
+| planned_tss | number? | Training Stress Score (legacy 80/20) |
+| structure | string? | JSON-stringified interval structure (legacy 80/20) |
 | notes | string? | User notes |
 | completed | boolean | Done status |
 | completed_at | timestamp? | When marked done |
@@ -176,18 +181,17 @@ Document ID format: `2026-W18` (ISO year-week)
 ### /tp_config/app
 | Field | Type | Description |
 |-------|------|-------------|
-| current_reference_week | number | Which plan week is "now" |
-| reference_week_anchor | string | Date when the above was set |
+| day_colors | map? | Per-day-of-week colour overrides |
 
 ---
 
-## Reference Plan Data
+## Training Plan Data
 
-- Source: TrainingPeaks "80/20 Running: 2026 Edition Ultra 100 Mile Level 1 (HR-based)"
-- 22 weeks, 198 workouts
-- Stored as static JS module (`reference-data.js`, ~740KB)
-- Includes: workout codes, descriptions, coach comments, HR zone structures, TSS, duration
-- Workout types: Foundation Run, Endurance Run, Fartlek Run, Hill Repetitions, Fast Finish Run, Tempo Run, Progression Run, Critical Velocity Run, Steady State Run, Over/Under Intervals, and more
+- Source: `Glenmore_24_Training_Plan_2026.json` (kept in repo as source of truth)
+- 11 weeks, 2026-06-23 → 2026-09-06, 75 days, ~208 activities
+- Compiled to static JS module (`plan-data.js`) via a one-off script from the JSON
+- Each week carries `start_date`/`end_date`/`focus`; each day lists activities with type, title, description, intensity, parsed measurements, and strength-workout refs
+- Strength workouts stored separately keyed by id (e.g. `home_strength_2`), with full exercise lists folded into descriptions at seed time
 
 ---
 
@@ -204,7 +208,7 @@ Document ID format: `2026-W18` (ISO year-week)
 ├── /js
 │   ├── firebase-config.js  Firebase SDK init
 │   ├── store.js            Firestore CRUD layer
-│   ├── reference-data.js   Static 80/20 plan data
+│   ├── plan-data.js        Static Glenmore 24 plan data (compiled from JSON)
 │   ├── app.js              Main app (auth, week view, modals, drag-and-drop)
 │   └── races.js            Races tab module
 ├── /css
@@ -222,7 +226,8 @@ Document ID format: `2026-W18` (ISO year-week)
 
 | Type | Icon Style |
 |------|-----------|
-| Run | Stick figure running (SVG line art) |
+| Run | Stick figure running (SVG line art), blue `#1565c0` |
+| Walk | Walking figure (SVG line art), teal `#00838f` |
 | Strength | Barbell (SVG line art) |
 | Yoga | Lotus pose figure (SVG line art) |
 | Cycling | Bicycle (SVG line art) |

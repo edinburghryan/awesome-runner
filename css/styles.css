@@ -21,6 +21,7 @@
   --shadow-lg: 0 4px 16px rgba(0,0,0,0.12);
 
   --type-run: #1565c0;
+  --type-walk: #00838f;
   --type-strength: #e65100;
   --type-yoga: #6a1b9a;
   --type-cycling: #2e7d32;
@@ -233,11 +234,15 @@ body {
 }
 .workout-type-icon svg { width: 16px; height: 16px; }
 .workout-type-icon.run { background: #e3f2fd; color: var(--type-run); }
+.workout-type-icon.walk { background: #e0f2f4; color: var(--type-walk); }
 .workout-type-icon.strength { background: #fff3e0; color: var(--type-strength); }
 .workout-type-icon.yoga { background: #f3e5f5; color: var(--type-yoga); }
 .workout-type-icon.cycling { background: #e8f5e9; color: var(--type-cycling); }
 .workout-type-icon.hiking { background: #efebe9; color: var(--type-hiking); }
 .workout-type-icon.canicross { background: #fbe9e7; color: var(--type-canicross); }
+.workout-type-icon.note { background: #eceff1; color: #607d8b; }
+.workout-card.marker { opacity: 0.85; }
+.workout-card.marker .workout-title { font-style: italic; font-weight: 500; }
 
 .workout-info { flex: 1; min-width: 0; }
 .workout-title { font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -410,36 +415,21 @@ body {
 }
 .add-type-btn:active { filter: brightness(0.95); }
 .add-type-btn .type-icon { display: flex; align-items: center; justify-content: center; }
+.add-type-btn.run { background: #e3f2fd; border-color: var(--type-run); color: var(--type-run); }
+.add-type-btn.walk { background: #e0f2f4; border-color: var(--type-walk); color: var(--type-walk); }
 .add-type-btn.strength { background: #fff3e0; border-color: var(--type-strength); color: var(--type-strength); }
 .add-type-btn.yoga { background: #f3e5f5; border-color: var(--type-yoga); color: var(--type-yoga); }
 .add-type-btn.cycling { background: #e8f5e9; border-color: var(--type-cycling); color: var(--type-cycling); }
 .add-type-btn.hiking { background: #efebe9; border-color: var(--type-hiking); color: var(--type-hiking); }
 .add-type-btn.canicross { background: #fbe9e7; border-color: var(--type-canicross); color: var(--type-canicross); }
 
+[data-theme="dark"] .add-type-btn.run { background: #1a2a3a; border-color: var(--type-run); }
+[data-theme="dark"] .add-type-btn.walk { background: #16323a; border-color: var(--type-walk); }
 [data-theme="dark"] .add-type-btn.strength { background: #3a2a1a; border-color: var(--type-strength); }
 [data-theme="dark"] .add-type-btn.yoga { background: #2a1a3a; border-color: var(--type-yoga); }
 [data-theme="dark"] .add-type-btn.cycling { background: #1a2a1a; border-color: var(--type-cycling); }
 [data-theme="dark"] .add-type-btn.hiking { background: #2a2420; border-color: var(--type-hiking); }
 [data-theme="dark"] .add-type-btn.canicross { background: #3a2020; border-color: var(--type-canicross); }
-
-.reference-workouts-header {
-  font-size: 12px; font-weight: 600; color: var(--text-secondary);
-  text-transform: uppercase; letter-spacing: 0.5px;
-  margin-bottom: 8px; padding-top: 8px;
-  border-top: 1px solid var(--border);
-}
-
-.reference-workout-item {
-  display: flex; align-items: center; gap: 10px;
-  padding: 12px;
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-sm);
-  margin-bottom: 8px;
-  cursor: pointer;
-}
-.reference-workout-item:active { background: var(--primary-light); }
-.reference-workout-item .workout-type-icon { width: 34px; height: 34px; }
-.reference-workout-item .workout-type-icon svg { width: 20px; height: 20px; }
 
 /* Races Page */
 .race-list { list-style: none; }
