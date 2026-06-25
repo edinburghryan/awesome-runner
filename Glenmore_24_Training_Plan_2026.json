@@ -1,0 +1,4695 @@
+{
+  "daily_plan": {
+    "weeks": [
+      {
+        "week": 1,
+        "heading": "Week 1: Tue 2026-06-23 to Sun 2026-06-28",
+        "start_date": "2026-06-23",
+        "end_date": "2026-06-28",
+        "focus": "calm the ankle, keep aerobic habit, start daily prehab.",
+        "days": [
+          {
+            "day": "Tue",
+            "date": "2026-06-23",
+            "date_range": null,
+            "raw": "No run. Easy bike 30-45 min Zone 1/2. Walk with dogs 5 km if pain-free. Home Strength 2 push press/pull/core; use strict press if the ankle dislikes dip/drive. Yoga 20-30 min.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Easy bike 30-45 min Zone 1/2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 30.0,
+                    "max": 45.0,
+                    "raw": "30-45 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 1/2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km if pain-free",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Home Strength 2 push press/pull/core; use strict press if the ankle dislikes dip/drive",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga 20-30 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 20.0,
+                    "max": 30.0,
+                    "raw": "20-30 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-06-24",
+            "date_range": null,
+            "raw": "Run/walk test 30 min only if green: 5 min walk, then 8 x 2 min easy run / 1 min walk, 5 min walk. If yellow, bike 45 min instead. Home Strength 5 prehab/mobility, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Run/walk test 30 min only if green: 5 min walk, then 8 x 2 min easy run / 1 min walk, 5 min walk",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 30.0,
+                    "max": 30.0,
+                    "raw": "30 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 1.0,
+                    "max": 1.0,
+                    "raw": "1 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "intervals",
+                  "optional",
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "bike",
+                "title": "Bike",
+                "description": "If yellow, bike 45 min instead",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 45.0,
+                    "raw": "45 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "optional"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Home Strength 5 prehab/mobility",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_5"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-06-25",
+            "date_range": null,
+            "raw": "Bike 45-60 min easy. Walk with dogs 5 km. Home Strength 4 light upper/carry; skip carries if the ankle reacts. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 45-60 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Home Strength 4 light upper/carry; skip carries if the ankle reacts",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_4"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-06-26",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Home Strength 3 light hip thrust/posterior chain; skip split squats/step-downs if the ankle reacts. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Home Strength 3 light hip thrust/posterior chain; skip split squats/step-downs if the ankle reacts",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_3"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-06-27",
+            "date_range": null,
+            "raw": "Campervan day. Easy 5-6 km trail walk or run/walk 45-60 min if green. Band strength E.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "note",
+                "title": "Note",
+                "description": "Campervan day",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy 5-6 km trail walk or run/walk 45-60 min if green",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 6.0,
+                    "raw": "5-6 km"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "optional",
+                  "run"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength E",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_e"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-06-28",
+            "date_range": null,
+            "raw": "Easy 6-8 km hike, no pushing downhills. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "hike",
+                "title": "Hike",
+                "description": "Easy 6-8 km hike, no pushing downhills",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 6.0,
+                    "max": 8.0,
+                    "raw": "6-8 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hike",
+                  "hill"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "heading": "Week 2: Mon 2026-06-29 to Sun 2026-07-05",
+        "start_date": "2026-06-29",
+        "end_date": "2026-07-05",
+        "focus": "holiday-compatible consistency.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-06-29",
+            "date_range": null,
+            "raw": "Easy run/walk 40-50 min Zone 1/2. Band strength A, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run/walk 40-50 min Zone 1/2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 40.0,
+                    "max": 50.0,
+                    "raw": "40-50 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 1/2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength A",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_a"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-06-30",
+            "date_range": null,
+            "raw": "Bike 45-75 min easy if available, otherwise brisk 5-6 km walk/hike. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike_or_hike",
+                "title": "Bike or hike",
+                "description": "Bike 45-75 min easy if available, otherwise brisk 5-6 km walk/hike",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 75.0,
+                    "raw": "45-75 min"
+                  },
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 6.0,
+                    "raw": "5-6 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike_or_hike",
+                  "optional"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-07-01",
+            "date_range": null,
+            "raw": "Easy run/walk 45-60 min. Band strength B. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run/walk 45-60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength B",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_b"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-07-02",
+            "date_range": null,
+            "raw": "Rest from running. Easy 5-6 km hike/walk. Band strength D, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "hike_walk",
+                "title": "Hike/walk",
+                "description": "Easy 5-6 km hike/walk",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 6.0,
+                    "raw": "5-6 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hike_walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength D",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_d"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-07-03",
+            "date_range": null,
+            "raw": "Easy run 50-60 min Zone 2 or run/walk. Band strength C.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 50-60 min Zone 2 or run/walk",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 50.0,
+                    "max": 60.0,
+                    "raw": "50-60 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength C",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_c"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-07-04",
+            "date_range": null,
+            "raw": "Long 8-10 km hike/run easy. Practise 10 min run / 2 min walk or 12 min run / 3 min walk. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "hike_run",
+                "title": "Hike/run",
+                "description": "Long 8-10 km hike/run easy",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 8.0,
+                    "max": 10.0,
+                    "raw": "8-10 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hike_run",
+                  "long"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "run",
+                "title": "Run",
+                "description": "Practise 10 min run / 2 min walk or 12 min run / 3 min walk",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 10.0,
+                    "max": 10.0,
+                    "raw": "10 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 2.0,
+                    "max": 2.0,
+                    "raw": "2 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 12.0,
+                    "max": 12.0,
+                    "raw": "12 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 3.0,
+                    "max": 3.0,
+                    "raw": "3 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-07-05",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Optional easy spin. Band strength E, easy.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Optional easy spin",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "optional"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength E, easy",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_e"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "heading": "Week 3: Mon 2026-07-06 to Sun 2026-07-12",
+        "start_date": "2026-07-06",
+        "end_date": "2026-07-12",
+        "focus": "extend time-on-feet without speed.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-07-06",
+            "date_range": null,
+            "raw": "Easy run 45-60 min. Band strength A, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 45-60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength A",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_a"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-07-07",
+            "date_range": null,
+            "raw": "Bike 60-90 min easy or 6-8 km hike. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike_or_hike",
+                "title": "Bike or hike",
+                "description": "Bike 60-90 min easy or 6-8 km hike",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 90.0,
+                    "raw": "60-90 min"
+                  },
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 6.0,
+                    "max": 8.0,
+                    "raw": "6-8 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike_or_hike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-07-08",
+            "date_range": null,
+            "raw": "Foundation run 60 min Zone 2. Band strength B. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Foundation run",
+                "description": "Foundation run 60 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "foundation",
+                  "run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength B",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_b"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-07-09",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Band strength D, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength D",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_d"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-07-10",
+            "date_range": null,
+            "raw": "Easy run 45 min. Band strength C.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 45 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 45.0,
+                    "raw": "45 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength C",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_c"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-07-11",
+            "date_range": null,
+            "raw": "Long 10-12 km hike/run easy, ideally trail. Fuel every 30 min. Do not chase pace. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "hike_run",
+                "title": "Hike/run",
+                "description": "Long 10-12 km hike/run easy, ideally trail",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 10.0,
+                    "max": 12.0,
+                    "raw": "10-12 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hike_run",
+                  "long"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Fuel every 30 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 30.0,
+                    "max": 30.0,
+                    "raw": "30 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "note",
+                "title": "Note",
+                "description": "Do not chase pace",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-07-12",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Optional easy bike. Band strength E, mobility only.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Optional easy bike",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "optional"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Band strength E, mobility only",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "campervan_strength_e"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "heading": "Week 4: Mon 2026-07-13 to Sun 2026-07-19",
+        "start_date": "2026-07-13",
+        "end_date": "2026-07-19",
+        "focus": "return to structured training.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-07-13",
+            "date_range": null,
+            "raw": "Rest from running. Walk with dogs 5 km. Strength 1 deadlift focus, controlled not maximal, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1 deadlift focus, controlled not maximal",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-07-14",
+            "date_range": null,
+            "raw": "Foundation run 60 min Zone 2. Strength 5 prehab micro-session. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Foundation run",
+                "description": "Foundation run 60 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "foundation",
+                  "run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 5 prehab micro-session",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_5"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-07-15",
+            "date_range": null,
+            "raw": "Bike 60 min easy or 45 min with 6 x 2 min moderate / 3 min easy. Walk with dogs 5 km. Strength 2 push press/pull, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 60 min easy or 45 min with 6 x 2 min moderate / 3 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 45.0,
+                    "raw": "45 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 3.0,
+                    "max": 3.0,
+                    "raw": "3 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "intervals"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2 push press/pull",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-07-16",
+            "date_range": null,
+            "raw": "Endurance run 75-90 min Zone 2 on soft trail.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Endurance run",
+                "description": "Endurance run 75-90 min Zone 2 on soft trail",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 75.0,
+                    "max": 90.0,
+                    "raw": "75-90 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "endurance",
+                  "run",
+                  "zone_2"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-07-17",
+            "date_range": null,
+            "raw": "Easy run 40-50 min. Strength 3 hip thrust/posterior chain, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 40-50 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 40.0,
+                    "max": 50.0,
+                    "raw": "40-50 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 3 hip thrust/posterior chain",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_3"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-07-18",
+            "date_range": null,
+            "raw": "Long trail run/walk 3 h Zone 2. Practise 10-12 min run / 2-3 min walk.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "long_run",
+                "title": "Long run",
+                "description": "Long trail run/walk 3 h Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "hours",
+                    "min": 3.0,
+                    "max": 3.0,
+                    "raw": "3 h"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "long",
+                  "long_run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "run",
+                "title": "Run",
+                "description": "Practise 10-12 min run / 2-3 min walk",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 10.0,
+                    "max": 12.0,
+                    "raw": "10-12 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 2.0,
+                    "max": 3.0,
+                    "raw": "2-3 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-07-19",
+            "date_range": null,
+            "raw": "Recovery run/walk 45-60 min or bike 60 min. Strength 4 light, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run_or_bike",
+                "title": "Run or bike",
+                "description": "Recovery run/walk 45-60 min or bike 60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "optional",
+                  "recovery",
+                  "run_or_bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 4 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_4"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "heading": "Week 5: Mon 2026-07-20 to Sun 2026-07-26",
+        "start_date": "2026-07-20",
+        "end_date": "2026-07-26",
+        "focus": "build Glenmore durability.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-07-20",
+            "date_range": null,
+            "raw": "Rest from running. Walk with dogs 5 km. Strength 1 deadlift focus, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1 deadlift focus",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-07-21",
+            "date_range": null,
+            "raw": "Hill repetitions run 60 min: 15 min easy, 8 x 45 sec uphill Zone 4 effort / walk-jog down, easy cooldown. Keep cadence quick and stop if ankle form changes. Strength 5 prehab. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "hill_run",
+                "title": "Hill run",
+                "description": "Hill repetitions run 60 min: 15 min easy, 8 x 45 sec uphill Zone 4 effort / walk-jog down, easy cooldown",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 15.0,
+                    "max": 15.0,
+                    "raw": "15 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "seconds",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 sec"
+                  }
+                ],
+                "intensity": [
+                  "Zone 4"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hill",
+                  "hill_run",
+                  "intervals",
+                  "zone_4"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Keep cadence quick and stop if ankle form changes",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 5 prehab",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_5"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-07-22",
+            "date_range": null,
+            "raw": "Bike 60-75 min easy. Walk with dogs 5 km. Strength 2 push press/pull, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 60-75 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 75.0,
+                    "raw": "60-75 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2 push press/pull",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-07-23",
+            "date_range": null,
+            "raw": "Endurance run 90 min Zone 2.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Endurance run",
+                "description": "Endurance run 90 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 90.0,
+                    "max": 90.0,
+                    "raw": "90 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "endurance",
+                  "run",
+                  "zone_2"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-07-24",
+            "date_range": null,
+            "raw": "Easy run 45 min. Strength 3 hip thrust/posterior chain, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 45 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 45.0,
+                    "raw": "45 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 3 hip thrust/posterior chain",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_3"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-07-25",
+            "date_range": null,
+            "raw": "Long trail run/walk 3.5-4 h. Include steady hiking on climbs and relaxed running on flats.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "long_run",
+                "title": "Long run",
+                "description": "Long trail run/walk 3.5-4 h",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "hours",
+                    "min": 3.5,
+                    "max": 4.0,
+                    "raw": "3.5-4 h"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "long",
+                  "long_run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Include steady hiking on climbs and relaxed running on flats",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-07-26",
+            "date_range": null,
+            "raw": "Recovery run/walk 60-75 min or easy bike 75 min. Strength 4 light, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run_or_bike",
+                "title": "Run or bike",
+                "description": "Recovery run/walk 60-75 min or easy bike 75 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 75.0,
+                    "raw": "60-75 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 75.0,
+                    "max": 75.0,
+                    "raw": "75 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "recovery",
+                  "run_or_bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 4 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_4"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "heading": "Week 6: Mon 2026-07-27 to Sun 2026-08-02",
+        "start_date": "2026-07-27",
+        "end_date": "2026-08-02",
+        "focus": "absorb training.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-07-27",
+            "date_range": null,
+            "raw": "Rest from running. Walk with dogs 5 km. Strength 1, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-07-28",
+            "date_range": null,
+            "raw": "Foundation run 50-60 min Zone 2. Strength 5 prehab. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Foundation run",
+                "description": "Foundation run 50-60 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 50.0,
+                    "max": 60.0,
+                    "raw": "50-60 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "foundation",
+                  "run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 5 prehab",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_5"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-07-29",
+            "date_range": null,
+            "raw": "Bike 60 min with 5 x 3 min moderate / 3 min easy. Walk with dogs 5 km. Strength 2. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 60 min with 5 x 3 min moderate / 3 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 3.0,
+                    "max": 3.0,
+                    "raw": "3 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "intervals"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-07-30",
+            "date_range": null,
+            "raw": "Endurance run 75 min easy.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Endurance run",
+                "description": "Endurance run 75 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 75.0,
+                    "max": 75.0,
+                    "raw": "75 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "endurance",
+                  "run"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-07-31",
+            "date_range": null,
+            "raw": "Easy run 40 min. Strength 3, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 40 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 40.0,
+                    "max": 40.0,
+                    "raw": "40 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 3",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_3"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-08-01",
+            "date_range": null,
+            "raw": "Long trail run/walk 2.5 h easy.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "long_run",
+                "title": "Long run",
+                "description": "Long trail run/walk 2.5 h easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "hours",
+                    "min": 2.5,
+                    "max": 2.5,
+                    "raw": "2.5 h"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "long",
+                  "long_run"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-08-02",
+            "date_range": null,
+            "raw": "Bike 75-120 min easy. Walk with dogs 5 km. Strength 4 light, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 75-120 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 75.0,
+                    "max": 120.0,
+                    "raw": "75-120 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 4 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_4"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "heading": "Week 7: Mon 2026-08-03 to Sun 2026-08-09",
+        "start_date": "2026-08-03",
+        "end_date": "2026-08-09",
+        "focus": "Glenmore-specific rhythm.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-08-03",
+            "date_range": null,
+            "raw": "Rest from running. Walk with dogs 5 km. Strength 1, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-08-04",
+            "date_range": null,
+            "raw": "Hill repetitions run 65-70 min: 15 min easy, 6 x 2 min uphill Zone 4 / 3 min easy down, 10-15 min cooldown. Strength 5 prehab. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "hill_run",
+                "title": "Hill run",
+                "description": "Hill repetitions run 65-70 min: 15 min easy, 6 x 2 min uphill Zone 4 / 3 min easy down, 10-15 min cooldown",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 65.0,
+                    "max": 70.0,
+                    "raw": "65-70 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 15.0,
+                    "max": 15.0,
+                    "raw": "15 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 3.0,
+                    "max": 3.0,
+                    "raw": "3 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 10.0,
+                    "max": 15.0,
+                    "raw": "10-15 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 4"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hill",
+                  "hill_run",
+                  "intervals",
+                  "zone_4"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 5 prehab",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_5"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-08-05",
+            "date_range": null,
+            "raw": "Bike 60-75 min easy. Walk with dogs 5 km. Strength 2, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 60-75 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 75.0,
+                    "raw": "60-75 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-08-06",
+            "date_range": null,
+            "raw": "Endurance run 90-105 min Zone 2.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Endurance run",
+                "description": "Endurance run 90-105 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 90.0,
+                    "max": 105.0,
+                    "raw": "90-105 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "endurance",
+                  "run",
+                  "zone_2"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-08-07",
+            "date_range": null,
+            "raw": "Easy run 45-60 min. Strength 3. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 45-60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 3",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_3"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-08-08",
+            "date_range": null,
+            "raw": "Long specific run/walk session 4.5-5 h on loops if possible. Use a 4 mile loop or out-and-back simulation. Practise aid-stop discipline every 4 miles.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "long_run",
+                "title": "Long run",
+                "description": "Long specific run/walk session 4.5-5 h on loops if possible",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "hours",
+                    "min": 4.5,
+                    "max": 5.0,
+                    "raw": "4.5-5 h"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "long",
+                  "long_run",
+                  "race_specific"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Use a 4 mile loop or out-and-back simulation",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "miles",
+                    "min": 4.0,
+                    "max": 4.0,
+                    "raw": "4 mile"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note",
+                  "race_specific"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "note",
+                "title": "Note",
+                "description": "Practise aid-stop discipline every 4 miles",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "miles",
+                    "min": 4.0,
+                    "max": 4.0,
+                    "raw": "4 miles"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note",
+                  "race_specific"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-08-09",
+            "date_range": null,
+            "raw": "Recovery run/walk 75-90 min or easy bike 90 min. Strength 4 light, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run_or_bike",
+                "title": "Run or bike",
+                "description": "Recovery run/walk 75-90 min or easy bike 90 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 75.0,
+                    "max": 90.0,
+                    "raw": "75-90 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 90.0,
+                    "max": 90.0,
+                    "raw": "90 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "recovery",
+                  "run_or_bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 4 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_4"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "heading": "Week 8: Mon 2026-08-10 to Sun 2026-08-16",
+        "start_date": "2026-08-10",
+        "end_date": "2026-08-16",
+        "focus": "peak specificity, not peak damage.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-08-10",
+            "date_range": null,
+            "raw": "Rest from running. Walk with dogs 5 km. Strength 1 moderate, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1 moderate",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-08-11",
+            "date_range": null,
+            "raw": "Foundation run 60-70 min Zone 2. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Foundation run",
+                "description": "Foundation run 60-70 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 70.0,
+                    "raw": "60-70 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "foundation",
+                  "run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-08-12",
+            "date_range": null,
+            "raw": "Bike 45-60 min easy. Walk with dogs 5 km. Strength 2, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 45-60 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-08-13",
+            "date_range": null,
+            "raw": "Controlled intervals run 90 min: 20 min easy, 3 x 10 min steady Zone 3 / 5 min easy, cooldown. Keep it smooth, not race-like.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "interval_run",
+                "title": "Interval run",
+                "description": "Controlled intervals run 90 min: 20 min easy, 3 x 10 min steady Zone 3 / 5 min easy, cooldown",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 90.0,
+                    "max": 90.0,
+                    "raw": "90 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 20.0,
+                    "max": 20.0,
+                    "raw": "20 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 0.0,
+                    "max": 0.0,
+                    "raw": "0 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 3"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "interval_run",
+                  "intervals",
+                  "zone_3"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Keep it smooth, not race-like",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-08-14",
+            "date_range": null,
+            "raw": "Easy run 45 min. Strength 3 light. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 45 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 45.0,
+                    "raw": "45 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 3 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_3"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-08-15",
+            "date_range": null,
+            "raw": "Peak long session 5.5-6 h trail/run-walk. Full Glenmore rehearsal: vest, lights if needed, food, fluids, salt, shoes, socks, layer changes, and aid-stop routine.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "long_run",
+                "title": "Long run",
+                "description": "Peak long session 5.5-6 h trail/run-walk",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "hours",
+                    "min": 5.5,
+                    "max": 6.0,
+                    "raw": "5.5-6 h"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "long",
+                  "long_run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Full Glenmore rehearsal: vest, lights if needed, food, fluids, salt, shoes, socks, layer changes, and aid-stop routine",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note",
+                  "race_specific"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-08-16",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Optional easy bike 60 min. Yoga only.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Optional easy bike 60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "optional"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga only",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 9,
+        "heading": "Week 9: Mon 2026-08-17 to Sun 2026-08-23",
+        "start_date": "2026-08-17",
+        "end_date": "2026-08-23",
+        "focus": "sharpen race practice while reducing load.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-08-17",
+            "date_range": null,
+            "raw": "Rest from running. Walk with dogs 5 km. Strength 1 light/moderate, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1 light/moderate",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-08-18",
+            "date_range": null,
+            "raw": "Short hill tune-up 60 min: 15 min easy, 8 x 60 sec uphill strong but relaxed / easy down, cooldown. Strength 5 prehab.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "note",
+                "title": "Note",
+                "description": "Short hill tune-up 60 min: 15 min easy, 8 x 60 sec uphill strong but relaxed / easy down, cooldown",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 15.0,
+                    "max": 15.0,
+                    "raw": "15 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "seconds",
+                    "min": 0.0,
+                    "max": 0.0,
+                    "raw": "0 sec"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "hill",
+                  "intervals",
+                  "note"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 5 prehab",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_5"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-08-19",
+            "date_range": null,
+            "raw": "Bike 45-60 min easy. Walk with dogs 5 km. Strength 2 light. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 45-60 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-08-20",
+            "date_range": null,
+            "raw": "Endurance run 75-90 min easy.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Endurance run",
+                "description": "Endurance run 75-90 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 75.0,
+                    "max": 90.0,
+                    "raw": "75-90 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "endurance",
+                  "run"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-08-21",
+            "date_range": null,
+            "raw": "Easy run 40 min. Mobility and yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 40 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 40.0,
+                    "max": 40.0,
+                    "raw": "40 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Mobility and yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-08-22",
+            "date_range": null,
+            "raw": "Loop rehearsal run/walk 3.5-4 h. Aim for calm lap pacing, quick stops, and fuelling accuracy. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Loop rehearsal run/walk 3.5-4 h",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "hours",
+                    "min": 3.5,
+                    "max": 4.0,
+                    "raw": "3.5-4 h"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "race_specific",
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Aim for calm lap pacing, quick stops, and fuelling accuracy",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-08-23",
+            "date_range": null,
+            "raw": "Recovery run/walk 45-60 min or bike 60 min. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run_or_bike",
+                "title": "Run or bike",
+                "description": "Recovery run/walk 45-60 min or bike 60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  },
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 60.0,
+                    "max": 60.0,
+                    "raw": "60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "optional",
+                  "recovery",
+                  "run_or_bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 10,
+        "heading": "Week 10: Mon 2026-08-24 to Sun 2026-08-30",
+        "start_date": "2026-08-24",
+        "end_date": "2026-08-30",
+        "focus": "taper while keeping rhythm.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-08-24",
+            "date_range": null,
+            "raw": "Rest. Walk with dogs 5 km. Strength 1 light, yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "note",
+                "title": "Note",
+                "description": "Rest",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 1 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_1"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-08-25",
+            "date_range": null,
+            "raw": "Foundation run 50-60 min Zone 2. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Foundation run",
+                "description": "Foundation run 50-60 min Zone 2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 50.0,
+                    "max": 60.0,
+                    "raw": "50-60 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "foundation",
+                  "run",
+                  "zone_2"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-08-26",
+            "date_range": null,
+            "raw": "Bike 40-50 min easy. Walk with dogs 5 km. Strength 2 light. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Bike 40-50 min easy",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 40.0,
+                    "max": 50.0,
+                    "raw": "40-50 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength 2 light",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [
+                  "home_strength_2"
+                ],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-08-27",
+            "date_range": null,
+            "raw": "Run 45-60 min with 3 x 5 min steady Zone 3, full easy recovery. This is a rhythm session, not a test.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "recovery_run",
+                "title": "Recovery run",
+                "description": "Run 45-60 min with 3 x 5 min steady Zone 3, full easy recovery",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 45.0,
+                    "max": 60.0,
+                    "raw": "45-60 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 3"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "intervals",
+                  "recovery",
+                  "recovery_run",
+                  "zone_3"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "This is a rhythm session, not a test",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-08-28",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat",
+            "date": "2026-08-29",
+            "date_range": null,
+            "raw": "Easy trail run 90-120 min. Stop feeling fresh.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy trail run 90-120 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 90.0,
+                    "max": 120.0,
+                    "raw": "90-120 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "note",
+                "title": "Note",
+                "description": "Stop feeling fresh",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sun",
+            "date": "2026-08-30",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Optional spin 30-60 min. Mobility only. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "bike",
+                "title": "Bike",
+                "description": "Optional spin 30-60 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 30.0,
+                    "max": 60.0,
+                    "raw": "30-60 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "bike",
+                  "optional"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "note",
+                "title": "Note",
+                "description": "Mobility only",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "note"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 11,
+        "heading": "Week 11: Mon 2026-08-31 to Sun 2026-09-06",
+        "start_date": "2026-08-31",
+        "end_date": "2026-09-06",
+        "focus": "arrive healthy and rested.",
+        "days": [
+          {
+            "day": "Mon",
+            "date": "2026-08-31",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Tue",
+            "date": "2026-09-01",
+            "date_range": null,
+            "raw": "Easy run 40 min Zone 1/2. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 40 min Zone 1/2",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 40.0,
+                    "max": 40.0,
+                    "raw": "40 min"
+                  }
+                ],
+                "intensity": [
+                  "Zone 1/2"
+                ],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Wed",
+            "date": "2026-09-02",
+            "date_range": null,
+            "raw": "Walk with dogs 5 km. Strength activation 20 min only: bands, glutes, calves, core. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "strength",
+                "title": "Strength",
+                "description": "Strength activation 20 min only: bands, glutes, calves, core",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 20.0,
+                    "max": 20.0,
+                    "raw": "20 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "strength"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Thu",
+            "date": "2026-09-03",
+            "date_range": null,
+            "raw": "Easy run 25-35 min. Pack race kit. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "run",
+                "title": "Run",
+                "description": "Easy run 25-35 min",
+                "measurements": [
+                  {
+                    "kind": "duration",
+                    "unit": "minutes",
+                    "min": 25.0,
+                    "max": 35.0,
+                    "raw": "25-35 min"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "run"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "logistics",
+                "title": "Logistics",
+                "description": "Pack race kit",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "logistics",
+                  "travel"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Fri",
+            "date": "2026-09-04",
+            "date_range": null,
+            "raw": "Travel/setup. Walk with dogs 5 km. No strength. Yoga.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "logistics",
+                "title": "Logistics",
+                "description": "Travel/setup",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "logistics",
+                  "travel"
+                ]
+              },
+              {
+                "sequence": 2,
+                "type": "walk",
+                "title": "Walk with dogs",
+                "description": "Walk with dogs 5 km",
+                "measurements": [
+                  {
+                    "kind": "distance",
+                    "unit": "kilometres",
+                    "min": 5.0,
+                    "max": 5.0,
+                    "raw": "5 km"
+                  }
+                ],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "walk"
+                ]
+              },
+              {
+                "sequence": 3,
+                "type": "no_strength",
+                "title": "No strength",
+                "description": "No strength",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "no_strength"
+                ]
+              },
+              {
+                "sequence": 4,
+                "type": "yoga",
+                "title": "Yoga",
+                "description": "Yoga",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "yoga"
+                ]
+              }
+            ]
+          },
+          {
+            "day": "Sat/Sun",
+            "date": null,
+            "date_range": {
+              "start": "2026-09-05",
+              "end": "2026-09-06"
+            },
+            "raw": "Glenmore 24.",
+            "activities": [
+              {
+                "sequence": 1,
+                "type": "race",
+                "title": "Race",
+                "description": "Glenmore 24",
+                "measurements": [],
+                "intensity": [],
+                "strength_workout_refs": [],
+                "tags": [
+                  "race",
+                  "race_specific"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "strength_workouts": [
+    {
+      "id": "home_strength_1",
+      "title": "Home Strength 1: Deadlift + Squat",
+      "group": "home",
+      "notes": [],
+      "exercises": [
+        {
+          "name": "Barbell deadlift",
+          "prescription": "5 x 3 or 4 x 5. Start RPE 6-7, progress to RPE 7-8 from Week 5 if green.",
+          "raw": "Barbell deadlift: 5 x 3 or 4 x 5. Start RPE 6-7, progress to RPE 7-8 from Week 5 if green."
+        },
+        {
+          "name": "Front squat or high-bar back squat",
+          "prescription": "4 x 5-6.",
+          "raw": "Front squat or high-bar back squat: 4 x 5-6."
+        },
+        {
+          "name": "Barbell Romanian deadlift",
+          "prescription": "3 x 6-8.",
+          "raw": "Barbell Romanian deadlift: 3 x 6-8."
+        },
+        {
+          "name": "Step-up",
+          "prescription": "3 x 8 each side, controlled lower.",
+          "raw": "Step-up: 3 x 8 each side, controlled lower."
+        },
+        {
+          "name": "Standing calf raise",
+          "prescription": "4 x 8-12.",
+          "raw": "Standing calf raise: 4 x 8-12."
+        },
+        {
+          "name": "Side plank",
+          "prescription": "3 x 30-45 sec each side.",
+          "raw": "Side plank: 3 x 30-45 sec each side."
+        }
+      ]
+    },
+    {
+      "id": "home_strength_2",
+      "title": "Home Strength 2: Push Press + Pull/Core",
+      "group": "home",
+      "notes": [],
+      "exercises": [
+        {
+          "name": "Barbell push press",
+          "prescription": "5 x 3 at RPE 6-7.",
+          "raw": "Barbell push press: 5 x 3 at RPE 6-7."
+        },
+        {
+          "name": "Cable row or barbell row",
+          "prescription": "4 x 8-10.",
+          "raw": "Cable row or barbell row: 4 x 8-10."
+        },
+        {
+          "name": "Lat pulldown or band pulldown",
+          "prescription": "3 x 10-12.",
+          "raw": "Lat pulldown or band pulldown: 3 x 10-12."
+        },
+        {
+          "name": "Half-kneeling dumbbell halo",
+          "prescription": "3 x 6-8 each direction.",
+          "raw": "Half-kneeling dumbbell halo: 3 x 6-8 each direction."
+        },
+        {
+          "name": "Dead bug",
+          "prescription": "3 x 8 each side.",
+          "raw": "Dead bug: 3 x 8 each side."
+        },
+        {
+          "name": "Suitcase carry",
+          "prescription": "4 x 30-45 sec each side.",
+          "raw": "Suitcase carry: 4 x 30-45 sec each side."
+        }
+      ]
+    },
+    {
+      "id": "home_strength_3",
+      "title": "Home Strength 3: Barbell Hip Thrust + Posterior Chain",
+      "group": "home",
+      "notes": [],
+      "exercises": [
+        {
+          "name": "Barbell hip thrust",
+          "prescription": "5 x 5-8, pause hard at lockout.",
+          "raw": "Barbell hip thrust: 5 x 5-8, pause hard at lockout."
+        },
+        {
+          "name": "Paused Romanian deadlift or good morning",
+          "prescription": "3 x 6-8, light/moderate.",
+          "raw": "Paused Romanian deadlift or good morning: 3 x 6-8, light/moderate."
+        },
+        {
+          "name": "Split squat or supported reverse lunge",
+          "prescription": "3 x 6-8 each side.",
+          "raw": "Split squat or supported reverse lunge: 3 x 6-8 each side."
+        },
+        {
+          "name": "Controlled step-down",
+          "prescription": "3 x 8 each side.",
+          "raw": "Controlled step-down: 3 x 8 each side."
+        },
+        {
+          "name": "Cable/band hip abduction",
+          "prescription": "3 x 12-15.",
+          "raw": "Cable/band hip abduction: 3 x 12-15."
+        },
+        {
+          "name": "Tibialis raise",
+          "prescription": "3 x 12-20.",
+          "raw": "Tibialis raise: 3 x 12-20."
+        }
+      ]
+    },
+    {
+      "id": "home_strength_4",
+      "title": "Home Strength 4: Upper Push/Carry, Light",
+      "group": "home",
+      "notes": [],
+      "exercises": [
+        {
+          "name": "Landmine press or strict press",
+          "prescription": "3 x 6-8 each side.",
+          "raw": "Landmine press or strict press: 3 x 6-8 each side."
+        },
+        {
+          "name": "Push-up or dumbbell floor press",
+          "prescription": "3 x 8-12.",
+          "raw": "Push-up or dumbbell floor press: 3 x 8-12."
+        },
+        {
+          "name": "Cable face pull or band pull-apart",
+          "prescription": "3 x 12-15.",
+          "raw": "Cable face pull or band pull-apart: 3 x 12-15."
+        },
+        {
+          "name": "Farmer carry",
+          "prescription": "4 x 45-60 sec.",
+          "raw": "Farmer carry: 4 x 45-60 sec."
+        },
+        {
+          "name": "Copenhagen side plank, short lever",
+          "prescription": "2 x 20-30 sec each side.",
+          "raw": "Copenhagen side plank, short lever: 2 x 20-30 sec each side."
+        }
+      ]
+    },
+    {
+      "id": "home_strength_5",
+      "title": "Home Strength 5: Prehab/Mobility Circuit",
+      "group": "home",
+      "notes": [
+        "2-3 rounds, smooth and easy"
+      ],
+      "exercises": [
+        {
+          "name": "Single-leg balance",
+          "prescription": "45 sec each side.",
+          "raw": "Single-leg balance: 45 sec each side."
+        },
+        {
+          "name": "Banded lateral walk",
+          "prescription": "12 steps each way.",
+          "raw": "Banded lateral walk: 12 steps each way."
+        },
+        {
+          "name": "Eccentric calf raise",
+          "prescription": "8-10 each side.",
+          "raw": "Eccentric calf raise: 8-10 each side."
+        },
+        {
+          "name": "Soleus bent-knee calf raise",
+          "prescription": "12 each side.",
+          "raw": "Soleus bent-knee calf raise: 12 each side."
+        },
+        {
+          "name": "Hip airplanes supported",
+          "prescription": "5 each side.",
+          "raw": "Hip airplanes supported: 5 each side."
+        },
+        {
+          "name": "Bird dog",
+          "prescription": "8 each side.",
+          "raw": "Bird dog: 8 each side."
+        }
+      ]
+    },
+    {
+      "id": "campervan_strength_a",
+      "title": "Campervan Strength A",
+      "group": "campervan",
+      "notes": [
+        "3 rounds"
+      ],
+      "exercises": [
+        {
+          "name": "Goblet squat with 5 kg dumbbells",
+          "prescription": "12-15.",
+          "raw": "Goblet squat with 5 kg dumbbells: 12-15."
+        },
+        {
+          "name": "Band row",
+          "prescription": "15.",
+          "raw": "Band row: 15."
+        },
+        {
+          "name": "Dumbbell Romanian deadlift",
+          "prescription": "12.",
+          "raw": "Dumbbell Romanian deadlift: 12."
+        },
+        {
+          "name": "Banded lateral walk",
+          "prescription": "12 each way.",
+          "raw": "Banded lateral walk: 12 each way."
+        },
+        {
+          "name": "Side plank",
+          "prescription": "30 sec each side.",
+          "raw": "Side plank: 30 sec each side."
+        }
+      ]
+    },
+    {
+      "id": "campervan_strength_b",
+      "title": "Campervan Strength B",
+      "group": "campervan",
+      "notes": [
+        "3 rounds"
+      ],
+      "exercises": [
+        {
+          "name": "Reverse lunge or split squat",
+          "prescription": "8-10 each side.",
+          "raw": "Reverse lunge or split squat: 8-10 each side."
+        },
+        {
+          "name": "Push-up or dumbbell floor press",
+          "prescription": "10-15.",
+          "raw": "Push-up or dumbbell floor press: 10-15."
+        },
+        {
+          "name": "Band pulldown",
+          "prescription": "15.",
+          "raw": "Band pulldown: 15."
+        },
+        {
+          "name": "Single-arm suitcase march with 5 kg dumbbell",
+          "prescription": "45 sec each side.",
+          "raw": "Single-arm suitcase march with 5 kg dumbbell: 45 sec each side."
+        },
+        {
+          "name": "Calf raise",
+          "prescription": "15-20.",
+          "raw": "Calf raise: 15-20."
+        }
+      ]
+    },
+    {
+      "id": "campervan_strength_c",
+      "title": "Campervan Strength C",
+      "group": "campervan",
+      "notes": [
+        "2-3 rounds"
+      ],
+      "exercises": [
+        {
+          "name": "Step-up onto safe surface",
+          "prescription": "10 each side.",
+          "raw": "Step-up onto safe surface: 10 each side."
+        },
+        {
+          "name": "Dumbbell suitcase carry or march",
+          "prescription": "45 sec each side.",
+          "raw": "Dumbbell suitcase carry or march: 45 sec each side."
+        },
+        {
+          "name": "Glute bridge",
+          "prescription": "15.",
+          "raw": "Glute bridge: 15."
+        },
+        {
+          "name": "Band face pull",
+          "prescription": "15.",
+          "raw": "Band face pull: 15."
+        },
+        {
+          "name": "Dead bug",
+          "prescription": "8 each side.",
+          "raw": "Dead bug: 8 each side."
+        }
+      ]
+    },
+    {
+      "id": "campervan_strength_d",
+      "title": "Campervan Strength D",
+      "group": "campervan",
+      "notes": [
+        "Light prehab only"
+      ],
+      "exercises": [
+        {
+          "name": "Ankle alphabet",
+          "prescription": "1 round each side.",
+          "raw": "Ankle alphabet: 1 round each side."
+        },
+        {
+          "name": "Single-leg balance",
+          "prescription": "45 sec each side.",
+          "raw": "Single-leg balance: 45 sec each side."
+        },
+        {
+          "name": "Tibialis raise",
+          "prescription": "15.",
+          "raw": "Tibialis raise: 15."
+        },
+        {
+          "name": "Banded ankle eversion/inversion",
+          "prescription": "12 each direction.",
+          "raw": "Banded ankle eversion/inversion: 12 each direction."
+        },
+        {
+          "name": "Hip flexor isometric hold",
+          "prescription": "20-30 sec each side.",
+          "raw": "Hip flexor isometric hold: 20-30 sec each side."
+        }
+      ]
+    },
+    {
+      "id": "campervan_strength_e",
+      "title": "Campervan Strength E",
+      "group": "campervan",
+      "notes": [
+        "2 rounds, easy"
+      ],
+      "exercises": [
+        {
+          "name": "Banded good morning",
+          "prescription": "15.",
+          "raw": "Banded good morning: 15."
+        },
+        {
+          "name": "Band pull-apart",
+          "prescription": "20.",
+          "raw": "Band pull-apart: 20."
+        },
+        {
+          "name": "Glute bridge with 5 sec squeeze",
+          "prescription": "12.",
+          "raw": "Glute bridge with 5 sec squeeze: 12."
+        },
+        {
+          "name": "Calf raise",
+          "prescription": "15.",
+          "raw": "Calf raise: 15."
+        },
+        {
+          "name": "Bird dog",
+          "prescription": "8 each side.",
+          "raw": "Bird dog: 8 each side."
+        }
+      ]
+    }
+  ]
+}

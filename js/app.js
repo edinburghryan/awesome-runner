@@ -9,11 +9,18 @@ const App = (() => {
 
   const WORKOUT_ICONS = {
     run: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(24,0) scale(-1,1)"><path d="m15 10.42 4.8-5.07"/><path d="M19 18h3"/><path d="M9.5 22 21.414 9.415A2 2 0 0 0 21.2 6.4l-5.61-4.208A1 1 0 0 0 14 3v2a2 2 0 0 1-1.394 1.906L8.677 8.053A1 1 0 0 0 8 9c-.155 6.393-2.082 9-4 9a2 2 0 0 0 0 4h14"/></g></svg>',
+    walk: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="4" r="1"/><path d="m9 20 1-7 3 2v5"/><path d="m10 13-1.5-4L6 11"/><path d="M13 9.5 16 11"/><path d="M8.5 9 10 7"/></svg>',
     strength: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.409 13.017A5 5 0 0 1 22 15c0 3.866-4 7-9 7-4.077 0-8.153-.82-10.371-2.462-.426-.316-.631-.832-.62-1.362C2.118 12.723 2.627 2 10 2a3 3 0 0 1 3 3 2 2 0 0 1-2 2c-1.105 0-1.64-.444-2-1"/><path d="M15 14a5 5 0 0 0-7.584 2"/><path d="M9.964 6.825C8.019 7.977 9.5 13 8 15"/></svg>',
     yoga: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22.063,8.226a7.976,7.976,0,0,0-5.521.63,10.063,10.063,0,0,0-3.986-5.687,1,1,0,0,0-1.112,0A10.072,10.072,0,0,0,7.457,8.858a7.964,7.964,0,0,0-5.521-.632,1,1,0,0,0-.732.769,10.771,10.771,0,0,0,2.481,9.149C6.036,20.781,8.873,21,11.816,21h.356c2.947,0,5.786-.219,8.14-2.855A10.764,10.764,0,0,0,22.8,8.994,1,1,0,0,0,22.063,8.226ZM12,5.245a8.36,8.36,0,0,1,2.772,4.73,9.256,9.256,0,0,0-1.089,1.017A10.3,10.3,0,0,0,12,13.515a10.345,10.345,0,0,0-1.687-2.523A9.314,9.314,0,0,0,9.227,9.98,8.362,8.362,0,0,1,12,5.245ZM10.958,18.992c-2.272-.05-4.173-.376-5.78-2.179A8.762,8.762,0,0,1,3.06,10.04a6.63,6.63,0,0,1,5.762,2.341A8.768,8.768,0,0,1,10.958,18.992Zm7.861-2.179c-1.61,1.8-3.513,2.129-5.789,2.179a8.759,8.759,0,0,1,2.138-6.61,6.808,6.808,0,0,1,5.011-2.393,5.528,5.528,0,0,1,.761.052A8.755,8.755,0,0,1,18.819,16.813Z"/></svg>',
     cycling: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg>',
     hiking: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z"/><path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z"/><path d="M16 17h4"/><path d="M4 13h4"/></svg>',
-    canicross: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/></svg>'
+    canicross: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/></svg>',
+    note: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>'
+  };
+
+  const TYPE_LABELS = {
+    run: 'Run', walk: 'Walk', strength: 'Strength', yoga: 'Yoga',
+    cycling: 'Cycling', hiking: 'Hiking', canicross: 'Canicross', note: 'Note'
   };
 
   const RACE_TYPES = {
@@ -87,7 +94,11 @@ const App = (() => {
   }
 
   function formatDate(date) {
-    return date.toISOString().split('T')[0];
+    // Local YYYY-MM-DD (avoid toISOString UTC shift, which moves a day in BST)
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
   }
 
   function formatDateShort(date) {
@@ -101,15 +112,17 @@ const App = (() => {
     return monday;
   }
 
-  function getReferenceWeekForDate(monday) {
-    if (!config.current_reference_week || !config.reference_week_anchor) return null;
-    // Parse anchor date as local (avoid timezone shift from ISO string)
-    const parts = config.reference_week_anchor.split('-');
-    const anchor = getMonday(new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2])));
-    const diffWeeks = Math.round((monday - anchor) / (7 * 86400000));
-    const refWeek = config.current_reference_week + diffWeeks;
-    if (refWeek < 1 || refWeek > ReferenceData.weeks.length) return null;
-    return refWeek;
+  // Find the plan week whose date span contains any day of the viewed week.
+  // The plan is calendar-stamped, so we match by real date rather than an offset.
+  function getPlanWeekForMonday(monday) {
+    const sunday = new Date(monday);
+    sunday.setDate(monday.getDate() + 6);
+    const mondayStr = formatDate(monday);
+    const sundayStr = formatDate(sunday);
+    return PlanData.weeks.find(w =>
+      // overlap test: plan week starts on/before viewed Sun AND ends on/after viewed Mon
+      w.start_date <= sundayStr && w.end_date >= mondayStr
+    ) || null;
   }
 
   function formatCountdown(raceDate) {
@@ -126,13 +139,48 @@ const App = (() => {
     return `${weeks}w ${remainingDays}d`;
   }
 
+  // --- Plan type mapping ---
+  // The Glenmore plan uses more granular types than the app renders. Map each
+  // to an app category (icon/colour), and classify markers vs real workouts.
+  const PLAN_TYPE_MAP = {
+    run: 'run', long_run: 'run', hill_run: 'run', interval_run: 'run', recovery_run: 'run',
+    walk: 'walk',
+    bike: 'cycling',
+    hike: 'hiking',
+    strength: 'strength',
+    yoga: 'yoga',
+    // either-or: first-named type wins; both stay in the title
+    bike_or_hike: 'cycling', run_or_bike: 'run', hike_walk: 'hiking', hike_run: 'hiking',
+  };
+  // Non-workout markers shown as small info cards on the day.
+  const PLAN_MARKER_TYPES = new Set(['note', 'logistics', 'no_strength']);
+  // Skipped entirely (Glenmore 24 lives in the Races tab).
+  const PLAN_SKIP_TYPES = new Set(['race']);
+
+  function mapPlanType(planType) {
+    return PLAN_TYPE_MAP[planType] || 'run';
+  }
+
+  // Build a display description for a plan activity, folding in strength
+  // exercise lists and any intensity/measurement detail.
+  function buildPlanDescription(act) {
+    const parts = [];
+    if (act.description) parts.push(act.description);
+
+    (act.strength_workout_refs || []).forEach(ref => {
+      const sw = PlanData.strength_workouts[ref];
+      if (!sw) return;
+      let block = sw.title;
+      if (sw.notes && sw.notes.length) block += ` (${sw.notes.join('; ')})`;
+      if (sw.exercises_text) block += `\n${sw.exercises_text}`;
+      parts.push(block);
+    });
+
+    return parts.join('\n\n') || null;
+  }
+
   function getPlanEndDate() {
-    if (!config.current_reference_week || !config.reference_week_anchor) return null;
-    const anchor = getMonday(new Date(config.reference_week_anchor));
-    const weeksRemaining = ReferenceData.weeks.length - config.current_reference_week;
-    const endMonday = new Date(anchor);
-    endMonday.setDate(anchor.getDate() + (weeksRemaining * 7) + 6);
-    return endMonday;
+    return new Date(PlanData.end_date + 'T00:00:00');
   }
 
   // --- Auth ---
@@ -167,12 +215,6 @@ const App = (() => {
     document.querySelector('.app').classList.add('active');
 
     config = await Store.getConfig();
-
-    if (!config.current_reference_week) {
-      config.current_reference_week = 1;
-      config.reference_week_anchor = formatDate(getMonday(new Date()));
-      await Store.saveConfig(config);
-    }
 
     initRealtime();
     initEventListeners();
@@ -218,49 +260,51 @@ const App = (() => {
   }
 
   async function seedWeek(monday, weekId) {
-    const refWeekNum = getReferenceWeekForDate(monday);
-    const refWeek = refWeekNum ? ReferenceData.weeks[refWeekNum - 1] : null;
+    const planWeek = getPlanWeekForMonday(monday);
 
     await Store.createWeek(weekId, {
       week_start: formatDate(monday),
-      reference_week: refWeekNum,
+      plan_week: planWeek ? planWeek.week : null,
       status: 'planned'
     });
 
-    if (refWeek) {
-      const batch = [];
-      refWeek.workouts.forEach((w, idx) => {
-        if (!w.code && w.workout_type === 'Rest Day') return;
-        if (!w.code && w.workout_type === 'Walking') return;
+    if (!planWeek) return;
 
-        const originalDate = new Date(w.date);
-        const dayOfWeek = originalDate.getDay();
-        const dayIndex = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
-        const workoutDate = new Date(monday);
-        workoutDate.setDate(monday.getDate() + dayIndex);
+    const batch = [];
+    planWeek.days.forEach(day => {
+      // Place each plan day at its real calendar day_index (0=Mon..6=Sun).
+      // Some plan days have no single date (e.g. the Sat/Sun race) — skip them;
+      // the race itself lives in the Races tab.
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(day.date || '')) return;
+      const dayDate = new Date(day.date + 'T00:00:00');
+      const dayIndex = (dayDate.getDay() + 6) % 7;
 
-        let seedStructure = null;
-        if (w.structure) { try { seedStructure = JSON.stringify(w.structure); } catch(e) {} }
+      day.activities.forEach((act, seq) => {
+        if (PLAN_SKIP_TYPES.has(act.type)) return;
+        const isMarker = PLAN_MARKER_TYPES.has(act.type);
 
         batch.push(Store.createWorkout({
           week_id: weekId,
           day_index: dayIndex,
-          date: formatDate(workoutDate),
-          order_index: idx,
-          type: 'run',
-          title: w.title || `${w.code} (${w.workout_type})`,
-          source: 'reference',
-          reference_code: w.code,
-          description: w.description || null,
-          coach_comments: w.coach_comments || null,
-          planned_duration_hours: typeof w.planned_duration_hours === 'number' ? w.planned_duration_hours : null,
-          planned_tss: typeof w.planned_tss === 'number' ? w.planned_tss : null,
-          structure: seedStructure,
+          date: day.date,
+          order_index: seq,
+          type: isMarker ? 'note' : mapPlanType(act.type),
+          title: act.title,
+          source: 'plan',
+          is_marker: isMarker,
+          reference_code: null,
+          description: isMarker ? (act.description || null) : buildPlanDescription(act),
+          coach_comments: null,
+          intensity: (act.intensity && act.intensity.length) ? act.intensity.join(', ') : null,
+          measurements: (act.measurements && act.measurements.length) ? act.measurements.join(', ') : null,
+          planned_duration_hours: null,
+          planned_tss: null,
+          structure: null,
           notes: null
         }));
       });
-      await Promise.all(batch);
-    }
+    });
+    await Promise.all(batch);
   }
 
   // --- Rendering ---
@@ -269,12 +313,12 @@ const App = (() => {
     const sunday = new Date(monday);
     sunday.setDate(monday.getDate() + 6);
 
-    const refWeek = getReferenceWeekForDate(monday);
+    const planWeek = getPlanWeekForMonday(monday);
     const label = document.getElementById('week-nav-label');
     const isThisWeek = currentWeekOffset === 0;
 
     let weekLabel = isThisWeek ? 'This Week' : (currentWeekOffset > 0 ? `+${currentWeekOffset} week${currentWeekOffset > 1 ? 's' : ''}` : `${currentWeekOffset} week${currentWeekOffset < -1 ? 's' : ''}`);
-    let refLabel = refWeek ? ` (Plan Wk ${refWeek})` : '';
+    let refLabel = planWeek ? ` (Plan Wk ${planWeek.week})` : '';
 
     label.innerHTML = `${weekLabel}${refLabel}<span class="week-dates">${formatDateShort(monday)} – ${formatDateShort(sunday)} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;opacity:0.5;"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><input type="date" id="week-date-picker" value="${formatDate(monday)}" style="position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer;z-index:10;-webkit-appearance:none;">`;
 
@@ -333,21 +377,38 @@ const App = (() => {
 
   function renderWorkoutCard(w) {
     const icon = WORKOUT_ICONS[w.type] || WORKOUT_ICONS.run;
-    const dur = w.planned_duration_hours;
-    let durStr = '';
-    if (dur) {
-      const h = Math.floor(dur);
-      const m = Math.round((dur - h) * 60);
-      durStr = h > 0 ? `${h}h${m > 0 ? m + 'm' : ''}` : `${m}m`;
+
+    // Info-card markers (note/logistics/no_strength): no checkbox, show the note text.
+    if (w.is_marker) {
+      return `
+        <div class="workout-card marker" data-id="${w.id}">
+          <div class="workout-type-icon note">${WORKOUT_ICONS.note}</div>
+          <div class="workout-info" data-id="${w.id}">
+            <div class="workout-title">${escapeHtml(w.description || w.title)}</div>
+          </div>
+        </div>
+      `;
     }
-    const meta = [durStr, w.reference_code].filter(Boolean).join(' · ');
+
+    // Meta line: prefer plan intensity/measurements; fall back to legacy duration/code.
+    let meta = [w.intensity, w.measurements].filter(Boolean).join(' · ');
+    if (!meta) {
+      const dur = w.planned_duration_hours;
+      let durStr = '';
+      if (dur) {
+        const h = Math.floor(dur);
+        const m = Math.round((dur - h) * 60);
+        durStr = h > 0 ? `${h}h${m > 0 ? m + 'm' : ''}` : `${m}m`;
+      }
+      meta = [durStr, w.reference_code].filter(Boolean).join(' · ');
+    }
 
     return `
       <div class="workout-card${w.completed ? ' completed' : ''}" data-id="${w.id}">
         <div class="workout-type-icon ${w.type}">${icon}</div>
         <div class="workout-info" data-id="${w.id}">
           <div class="workout-title">${escapeHtml(w.title)}</div>
-          ${meta ? `<div class="workout-meta">${meta}</div>` : ''}
+          ${meta ? `<div class="workout-meta">${escapeHtml(meta)}</div>` : ''}
         </div>
         <div class="workout-check${w.completed ? ' done' : ''}" data-id="${w.id}">${w.completed ? '✓' : ''}</div>
       </div>
@@ -503,16 +564,28 @@ const App = (() => {
     const dayColour = getDayColour(w.day_index);
     body.style.background = dayColour.tint;
     applyDayGradientToHeader(overlay, w.day_index);
-    const typeLabel = w.type === 'run' ? 'Running' : (w.type.charAt(0).toUpperCase() + w.type.slice(1));
+    const typeLabel = TYPE_LABELS[w.type] || (w.type.charAt(0).toUpperCase() + w.type.slice(1));
     document.getElementById('workout-detail-title').textContent = typeLabel;
 
     let html = `<div class="workout-detail-section" style="margin-bottom:12px;"><h4>Title</h4>`;
     html += `<input type="text" class="notes-field" id="detail-title" value="${escapeHtml(w.title)}" style="min-height:auto;padding:8px 12px;font-weight:600;font-size:15px;"></div>`;
 
     if (w.description) {
-      html += `<div class="workout-detail-section"><h4>Workout</h4><p>${escapeHtml(w.description)}</p></div>`;
+      html += `<div class="workout-detail-section"><h4>Workout</h4><p style="white-space:pre-wrap;">${escapeHtml(w.description)}</p></div>`;
     }
 
+    if (w.intensity || w.measurements) {
+      html += `<div class="workout-detail-section"><h4>Details</h4><div class="zone-pills">`;
+      if (w.intensity) html += `<span class="zone-pill" style="background:var(--zone2-bg);color:var(--zone2)">${escapeHtml(w.intensity)}</span>`;
+      if (w.measurements) {
+        w.measurements.split(',').map(s => s.trim()).filter(Boolean).forEach(m => {
+          html += `<span class="zone-pill">${escapeHtml(m)}</span>`;
+        });
+      }
+      html += `</div></div>`;
+    }
+
+    // Legacy HR-zone structure (kept for any pre-existing 80/20 workouts)
     let parsedStructure = null;
     if (w.structure) {
       if (typeof w.structure === 'string') { try { parsedStructure = JSON.parse(w.structure); } catch(e) {} }
@@ -586,172 +659,16 @@ const App = (() => {
 
   function openAddWorkoutSheet() {
     const overlay = document.getElementById('add-workout-overlay');
-    const refSection = document.getElementById('reference-workouts-list');
     const modalBody = overlay.querySelector('.modal-body');
     const colours = getDayColour(activeDay);
     modalBody.style.background = colours.tint;
     applyDayGradientToHeader(overlay, activeDay);
-
-    const monday = getCurrentMonday();
-    const refWeekNum = getReferenceWeekForDate(monday);
-    const refWeek = refWeekNum ? ReferenceData.weeks[refWeekNum - 1] : null;
-
-    refSection.innerHTML = '';
-    if (refWeek) {
-      // Filter to only coded workouts and store direct references
-      const codedWorkouts = refWeek.workouts.filter(w => w.code);
-
-      codedWorkouts.forEach((w, idx) => {
-        const dur = w.planned_duration_hours;
-        let durStr = '';
-        if (dur) {
-          const h = Math.floor(dur);
-          const m = Math.round((dur - h) * 60);
-          durStr = h > 0 ? `${h}h${m > 0 ? m + 'm' : ''}` : `${m}m`;
-        }
-        const item = document.createElement('div');
-        item.className = 'reference-workout-item';
-        item.dataset.refIdx = idx;
-        item.innerHTML = `
-          <div class="workout-type-icon run">${WORKOUT_ICONS.run}</div>
-          <div style="flex:1;min-width:0;">
-            <div style="font-size:13px;font-weight:500;">${escapeHtml(w.title)}</div>
-            <div style="font-size:11px;color:var(--text-secondary);">${[durStr, w.workout_type].filter(Boolean).join(' · ')}</div>
-          </div>
-        `;
-        refSection.appendChild(item);
-      });
-
-      // Single delegated click handler — opens preview with Add button
-      refSection.onclick = (e) => {
-        const item = e.target.closest('.reference-workout-item');
-        if (!item || item.style.pointerEvents === 'none') return;
-        e.preventDefault();
-        e.stopPropagation();
-        const idx = parseInt(item.dataset.refIdx);
-        if (idx >= 0 && idx < codedWorkouts.length) {
-          showReferencePreview(codedWorkouts[idx], item);
-        }
-      };
-    } else {
-      refSection.innerHTML = '<p style="font-size:12px;color:var(--text-muted);padding:8px">No reference plan mapped to this week</p>';
-    }
-
     overlay.classList.remove('hidden');
-  }
-
-  function addReferenceWorkout(refWorkout, titleOverride) {
-    const monday = getCurrentMonday();
-    const weekId = getWeekId(monday);
-    const dayDate = new Date(monday);
-    dayDate.setDate(monday.getDate() + activeDay);
-
-    const existing = workouts.filter(w => w.day_index === activeDay);
-
-    // Store structure as JSON string to avoid Firestore nested array limitation
-    let structureJson = null;
-    if (refWorkout.structure) {
-      try { structureJson = JSON.stringify(refWorkout.structure); } catch(e) { structureJson = null; }
-    }
-
-    const data = {
-      week_id: weekId,
-      day_index: activeDay,
-      date: formatDate(dayDate),
-      order_index: existing.length,
-      type: 'run',
-      title: titleOverride || refWorkout.title || refWorkout.code + ' (' + refWorkout.workout_type + ')',
-      source: 'reference',
-      reference_code: refWorkout.code ? refWorkout.code : null,
-      description: refWorkout.description ? refWorkout.description : null,
-      coach_comments: refWorkout.coach_comments ? refWorkout.coach_comments : null,
-      planned_duration_hours: typeof refWorkout.planned_duration_hours === 'number' ? refWorkout.planned_duration_hours : null,
-      planned_tss: typeof refWorkout.planned_tss === 'number' ? refWorkout.planned_tss : null,
-      structure: structureJson,
-      notes: null
-    };
-
-    console.log('Adding reference workout:', data.title, 'to week:', weekId, 'day:', activeDay);
-
-    Store.createWorkout(data).then(() => {
-      console.log('Reference workout added successfully');
-    }).catch(err => {
-      console.error('Failed to add reference workout:', err);
-      alert('Failed to add workout: ' + err.message);
-    });
-  }
-
-  function showReferencePreview(refWorkout, itemEl) {
-    document.getElementById('add-workout-overlay').classList.add('hidden');
-
-    const overlay = document.getElementById('workout-detail-overlay');
-    const body = document.getElementById('workout-detail-body');
-    const dayColour = getDayColour(activeDay);
-    body.style.background = dayColour.tint;
-    applyDayGradientToHeader(overlay, activeDay);
-    document.getElementById('workout-detail-title').textContent = 'Running';
-
-    let html = `<div class="workout-detail-title">${escapeHtml(refWorkout.title)}</div>`;
-
-    if (refWorkout.description) {
-      html += `<div class="workout-detail-section"><h4>Workout</h4><p>${escapeHtml(refWorkout.description)}</p></div>`;
-    }
-
-    if (refWorkout.structure && refWorkout.structure.structure) {
-      html += `<div class="workout-detail-section"><h4>Structure</h4><div class="zone-pills">`;
-      refWorkout.structure.structure.forEach(block => {
-        if (block.steps) {
-          block.steps.forEach(step => {
-            const dur = step.length ? formatSeconds(step.length.value) : '';
-            const targets = step.targets && step.targets[0];
-            let zoneCss = '';
-            if (targets) {
-              const lo = targets.minValue;
-              if (lo <= 76) zoneCss = 'background:var(--zone1-bg);color:var(--zone1)';
-              else if (lo <= 87) zoneCss = 'background:var(--zone2-bg);color:var(--zone2)';
-              else if (lo <= 100) zoneCss = 'background:var(--zone3-bg);color:var(--zone3)';
-              else if (lo <= 115) zoneCss = 'background:var(--zone4-bg);color:var(--zone4)';
-              else zoneCss = 'background:var(--zone5-bg);color:var(--zone5)';
-            }
-            html += `<span class="zone-pill" style="${zoneCss}">${step.name} ${dur}</span>`;
-          });
-        }
-      });
-      html += `</div></div>`;
-    }
-
-    if (refWorkout.coach_comments) {
-      html += `<div class="workout-detail-section"><h4>Coach Notes</h4><p>${escapeHtml(refWorkout.coach_comments)}</p></div>`;
-    }
-
-    html += `<div class="workout-detail-section"><h4>Title</h4>`;
-    html += `<input type="text" class="notes-field" id="ref-preview-title" value="${escapeHtml(refWorkout.title)}" style="min-height:auto;padding:8px 12px;"></div>`;
-
-    html += `<div style="display:flex;gap:8px;margin-top:16px;">`;
-    html += `<button class="btn-primary" id="ref-preview-add" style="flex:1;">Add to day</button>`;
-    html += `<button class="btn-danger" id="ref-preview-close" style="flex:1;margin-top:0;border-color:var(--border);color:var(--text-secondary);">Close</button>`;
-    html += `</div>`;
-
-    body.innerHTML = html;
-    overlay.classList.remove('hidden');
-
-    document.getElementById('ref-preview-add').addEventListener('click', () => {
-      const customTitle = document.getElementById('ref-preview-title').value.trim();
-      const titleOverride = customTitle && customTitle !== refWorkout.title ? customTitle : null;
-      addReferenceWorkout(refWorkout, titleOverride);
-      if (itemEl) { itemEl.style.opacity = '0.4'; itemEl.style.pointerEvents = 'none'; }
-      overlay.classList.add('hidden');
-    });
-
-    document.getElementById('ref-preview-close').addEventListener('click', () => {
-      overlay.classList.add('hidden');
-      // Re-open the add workout sheet
-      openAddWorkoutSheet();
-    });
   }
 
   const TYPE_TINTS = {
     run: { light: '#e3f2fd', dark: '#1a2a3a' },
+    walk: { light: '#e0f2f4', dark: '#16323a' },
     strength: { light: '#fff3e0', dark: '#3a2a1a' },
     yoga: { light: '#f3e5f5', dark: '#2a1a3a' },
     cycling: { light: '#e8f5e9', dark: '#1a2a1a' },
@@ -760,7 +677,7 @@ const App = (() => {
   };
 
   function addCustomWorkout(type) {
-    const titles = { strength: 'Strength Training', yoga: 'Yoga', cycling: 'Cycling', hiking: 'Hiking', canicross: 'Canicross' };
+    const titles = { run: 'Run', walk: 'Walk', strength: 'Strength Training', yoga: 'Yoga', cycling: 'Cycling', hiking: 'Hiking', canicross: 'Canicross' };
     const defaultTitle = titles[type] || type;
 
     document.getElementById('add-workout-overlay').classList.add('hidden');
@@ -822,34 +739,11 @@ const App = (() => {
   // --- Settings ---
   function openSettings() {
     const overlay = document.getElementById('settings-overlay');
-    document.getElementById('settings-ref-week').value = config.current_reference_week || 1;
-    updateSettingsEndDate(config.current_reference_week || 1);
+    const fmt = (d) => new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    document.getElementById('settings-plan-name').textContent = PlanData.plan_name;
+    document.getElementById('settings-plan-range').textContent =
+      `${fmt(PlanData.start_date)} – ${fmt(PlanData.end_date)} (${PlanData.total_weeks} weeks)`;
     overlay.classList.remove('hidden');
-
-    document.getElementById('settings-ref-week').addEventListener('input', (e) => {
-      updateSettingsEndDate(parseInt(e.target.value) || 1);
-    });
-
-    document.getElementById('settings-save').onclick = async () => {
-      const newWeek = parseInt(document.getElementById('settings-ref-week').value);
-      if (newWeek >= 1 && newWeek <= ReferenceData.weeks.length) {
-        config.current_reference_week = newWeek;
-        config.reference_week_anchor = formatDate(getMonday(new Date()));
-        await Store.saveConfig(config);
-        overlay.classList.add('hidden');
-        loadWeek();
-      }
-    };
-  }
-
-  function updateSettingsEndDate(weekNum) {
-    const el = document.getElementById('settings-end-date');
-    if (!el) return;
-    const weeksRemaining = ReferenceData.weeks.length - weekNum;
-    const endDate = new Date();
-    const monday = getMonday(endDate);
-    monday.setDate(monday.getDate() + (weeksRemaining * 7) + 6);
-    el.textContent = `Plan ends: ${monday.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })} (${weeksRemaining} weeks from now)`;
   }
 
   // --- Drag & Drop ---
